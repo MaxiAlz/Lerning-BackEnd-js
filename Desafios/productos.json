@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "tittle": "producto prueba",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "Sin imagen",
+    "code": "abc123",
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "tittle": "PC",
+    "description": "Pc escritorio 4212",
+    "price": 500,
+    "thumbnail": "Sin imagen",
+    "code": "asd153",
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "tittle": "ASD",
+    "description": "Pc asd 4212",
+    "price": 50,
+    "thumbnail": "Sin imagen",
+    "code": "asd",
+    "stock": 8
+  }
+]
