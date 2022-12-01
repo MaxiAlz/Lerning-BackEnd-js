@@ -1,0 +1,31 @@
+Status de error:
+
+100 => informativo
+200 =>z todo ok
+300=>
+400=> todo mal
+500 => error en el servidor
+
+--------------------------------
+API => Sirve para que dos partes puedan interactuar,basicamente es un conjunto de reglas y responde a unas preguntas como: a que endpoint debo apuntar para realizar una tarea
+que metodos debo usar para ese recurso, cual es la direccion del servidor
+
+REST nos permite definir la estructura de los datos para tranferir
+defie como debe ser los datos que vana  recibir, los ams usados son JSON y XML
+
+
+API REST=> Es un sistema de comunicacion compelto
+
+cliente => REST API => servidor
+
+Nomenclatura en los endpoints
+
+verbo + que cosa
+GET api/usuarios                | Estaria mal GET usuarios/obtener      => por que el verbo ya implica la accion que va a hacer
+GET api/usuarios/:id            | Estaria mal GET usuarios/obtener/:id 
+DELETE api/usuario/:id
+
+************ POSTMAN ***********
+
+creo nueva peticcion http, coloco el verbo y la ruta
+
