@@ -62,7 +62,6 @@ class ProductManager {
       // leer archivo, asumiendo que existe...
       if (fs.existsSync(this._path)) {
         const response = await fs.promises.readFile(this._path, 'utf-8')
-        // console.log(JSON.parse(response))
         return JSON.parse(response)
       } else console.log('No hay archivo de productos');
     }
@@ -87,28 +86,24 @@ class ProductManager {
     }
   }
 
-  // metodo update:
+
   updateProduct = async (idProduct, dataUpdate) => {
-    // obtener el producto a actualizar
-    const productToUpdate = await this.getProductByID(idProduct)
 
-    // const actualizar = []
-    // desestructuro objeto que me manda
-    const { tittle, description, price, thumbnail, code, stock } = dataUpdate
-    const updated = { ...productToUpdate, tittle, description, price, thumbnail, code, stock }
-    // si el producto existe,actualizo
-    // if (productToUpdate) {
-      const allProducts = await this.getProducts()
-      // recorro el arreglo y filtro el que no tiene el id
-      const productosfiltrados = allProducts.filter(product => product.id !== productToUpdate.id)
-      const actualizar = productosfiltrados.push(updated)
-
-      // return actualizar
+    const allProducts = await this.getProducts()
+    dataUpdate.id = idProduct
     // }
-    console.log(actualizar);
+    await allProducts.forEach(product => {
+      // lo igualo 
+      if (product.id == idProduct) {
+        console.log('antes', product);
+        product = dataUpdate
+        console.log('actualizado', product);
+      }
+
+    });
+    await this.addProducts(allProducts)
   }
-  // debe recibir el id y el campo a actualizar, puede ser el objeto completo tambien no debe borrar el id
-  // fmetodo delete
+
   deleteProduct = async (idProduct) => {
     // obtener producto a borrar
     const productToDelete = await this.getProductByID(idProduct)
@@ -130,19 +125,20 @@ class ProductManager {
 
 
 
-const test1 = new ProductManager('./productos.json')
+// const test1 = new ProductManager('./productos.json')
 
-const dataUpdate = {
-  tittle: "celular",
-  description: "celular samsung",
-  price: 100,
-  thumbnail: "sin imagen",
-  code: "celu123",
-  stock: 15
-}
-// console.log('getProducts: ',test1.getProducts())
+// const dataUpdate = {
+//   tittle: "celular",
+//   description: "celular samsung",
+//   price: 100,
+//   thumbnail: "sin imagen",
+//   code: "celu123",
+//   stock: 15
+// }
+
+// console.log('getProducts: ', test1.getProducts())
 // console.log(test1.getProductByID(2))
-console.log(test1.updateProduct(3, dataUpdate))
+// console.log(test1.updateProduct(3, dataUpdate))
 // console.log(test1.deleteProduct(2))
 // console.log(test1.addProducts('producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25));
 // console.log(test1.addProducts('computadora Dell', 'Computadora dell 4212', 200, 'Sin imagen', 'asd123', 4));
