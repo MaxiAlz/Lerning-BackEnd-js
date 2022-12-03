@@ -29,3 +29,11 @@ DELETE api/usuario/:id
 
 creo nueva peticcion http, coloco el verbo y la ruta
 
+
+********** Express *********
+Express es un framework minimalista que permite crear servidores mas complejos, utiliza rutas,mejora la estructura,maneja funcionalidades y usa middlewares
+
+**Objeto req **
+req.query, req.params, req.body.
+
+eq.params : Se utiliza para definir un parametro dentro de la ruta a trabajar, colocando el simbolo : antes del parametro

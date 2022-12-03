@@ -1,0 +1,22 @@
+Crear backend:
+
+para instalar e importar express, Este es el framework que se va a usar el cual contiene los metodos que necesitamos.
+
+- creamos package.json: npm init -y(le da si a todo)
+
+- instalacion : npm i express
+
+*** Estructurar el proyecto *****
+creo carpeta src donde va a estar todo el codigo,y adentro un archivo app
+
+- importar en el archivo express
+por modulos (el type debe ser type:"module") : import express from ('express') 
+o tambien puede ser: import express = required('express)
+
+inicializar el back o programa:
+
+const app = express()
+const server = app.listen(port: number,()=>(console.log('escuchando el puesto ${'port'}')))
+
+app.use(express.json()) // Para obtener json del body
+app.use(express.urlencoded({extended: true}))

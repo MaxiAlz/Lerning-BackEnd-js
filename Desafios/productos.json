@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "tittle": "computadora Dell",
+    "description": "Computadora dell 4212",
+    "price": 200,
+    "thumbnail": "Sin imagen",
+    "code": "asd123",
+    "stock": 4
+  },
+  {
+    "id": 2,
+    "tittle": "celular samsung",
+    "description": "galaxy 523",
+    "price": 500,
+    "thumbnail": "Sin imagen",
+    "code": "cel123",
+    "stock": 4
+  },
+  {
+    "id": 3,
+    "tittle": "lavaropa",
+    "description": "lavaropa",
+    "price": 150,
+    "thumbnail": "Sin imagen",
+    "code": "lav123",
+    "stock": 7
+  },
+  {
+    "id": 4,
+    "tittle": "Tablet",
+    "description": "table 7' ",
+    "price": 195,
+    "thumbnail": "Sin imagen",
+    "code": "tab563",
+    "stock": 9
+  }
+]
