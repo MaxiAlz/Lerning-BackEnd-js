@@ -1,0 +1,29 @@
+npm init -y
+npm i express
+
+en esta clase vimos la carpeta routes y router de express
+
+----------------
+servidor de archivos estaticos
+alojar recursos visibles para cualquiera que entre
+
+-----------------------
+middlewares: es un intermediario entre la peticion y el servidor
+los middlewares se operan en orden o cascada
+
+
+--------------------
+ejemplo del carrito para entrega
+{
+    "id": 1,
+    "products": [
+        {
+            "id":2,
+            "quantity": 1
+        },
+        {
+            "id":4,
+            "quantity": 3
+        }
+    ]
+}
