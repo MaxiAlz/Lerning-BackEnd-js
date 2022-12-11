@@ -1,6 +1,6 @@
 Crear backend:
 
-para instalar e importar express, Este es el framework que se va a usar el cual contiene los metodos que necesitamos.
+Instalar e importar express, Este es el framework que se va a usar el cual contiene los metodos que necesitamos.
 
 - creamos package.json: npm init -y(le da si a todo)
 
@@ -16,7 +16,23 @@ o tambien puede ser: import express = required('express)
 inicializar el back o programa:
 
 const app = express()
+
 const server = app.listen(port: number,()=>(console.log('escuchando el puesto ${'port'}')))
 
 app.use(express.json()) // Para obtener json del body
 app.use(express.urlencoded({extended: true}))
+
+
+-----rutas---
+creo carpeta routes en src
+creo archivo para tipo de rutas ej: productsRouter.js
+	adentro importo Router de express: import { Router } from "express";
+	creo constante=>   const router = Router()
+para crear nuesvas rutas lo hago de la siguiente manera:
+
+router.METHOT('ruta', (req,res)=>{
+})
+
+
+
+	

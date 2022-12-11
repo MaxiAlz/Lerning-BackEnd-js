@@ -1,0 +1,11 @@
+Motores de plantillas:
+
+Sirva para hacer paginas dinamicas desde backend, es decir que venga con informacion desde el backend
+Es un html que tiene una variables a la cual le podemos reemplazar informacion para que sean dinamicas
+
+motores de plantillas conocidos: handlebars, ejs,pugjs
+
+diferencia de motor de plantilla y frameworks
+
+documentacion: https://handlebarsjs.com/
+
