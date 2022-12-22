@@ -1,0 +1,21 @@
+protocolo de comunicacion para establecer la coneccion con el cliente servidor
+
+Establece 2 endpoints de comunicacion, es bidireccional. Puede entregar informacion al cliente sin que el cliente hacga una peticion
+
+protcolo websocket: permite interactuar en tiempo real con el cliene y el servidor
+ejemplos de uso muy comuen: Chats, juegos en linea, redes sociales, Actualizacion de bolsa, subastas 
+
+http
+peticiones que esperan una respuesta
+se solicita informacio y hay que esperar la respuesta
+se usa para consumir apis y recursos websocket
+
+websocket
+canal abierto entre servidor y cliente
+
+
+http y websoket no se reemplaza, simplemente se pueden coplementar unos a otros
+
+socket.io es una biblioteca para implementar el protocolo socket.
+detecta desconexiones para reconectarse al momento de volver
+soporte binario

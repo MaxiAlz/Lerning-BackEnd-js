@@ -1,0 +1,23 @@
+comandos en mongosh
+
+db_coders: indica en que base de datos estoy en la cosa de comandos
+show collections: muestra las coleccione de la base de datos
+show dbs: lo mismo
+db.dropDatabase(): eliminar base de datos
+db.books.drop(): borra la coleccion en donde me encuentro
+db.users.drop(): borra especificamente una coleccion
+
+
+use bd_nombreDeLaDB: crear base de datos
+
+db.users.insertObe({name: "Alan", lastName: "Barros"}) : crea un documento en la ase de datos
+db.users.insertMany([{name: "Maxi",lastName:"Alz"},{{name: "juan",lastName:"cosito"}]) : agrega varios elementos
+
+
+buscar contenido:
+db.users.find({}): aparecen todos los obhetos de la coleccion de usuarios
+db.user.find({name: 'r2'})
+
+bd.users.stimatedDocumentCount() : cuantos documentos tenes en la coleccion que les estoy pasando
+
+db.user.countDocuments({name:"maxi}): cuenta cuantos elementos con el name maxi hay en la coleccion
