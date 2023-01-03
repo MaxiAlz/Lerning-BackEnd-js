@@ -19,3 +19,22 @@ http y websoket no se reemplaza, simplemente se pueden coplementar unos a otros
 socket.io es una biblioteca para implementar el protocolo socket.
 detecta desconexiones para reconectarse al momento de volver
 soporte binario
+4
+
+crear servidor Socket
+
+const express = require('express)
+const app = expres()
+
+import { Server } from 'socket.io'
+
+//aca creo el servidor http que se va a inyectar en socket, primero requiero http
+
+const httpServer = app.listen(8080, () => console.log('Listeing...'))
+//aca inyecto soket al servidor que se creo
+const socketServer = new Server(httpServer)
+
+
+//METOS DE SOCKET.IO
+
+

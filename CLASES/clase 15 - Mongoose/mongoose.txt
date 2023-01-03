@@ -1,0 +1,15 @@
+vamos a integrar la base de datos con mongoose, lo cual es la libreria o framework que vamos a usar para la parte del back
+
+clientes de base de datos:
+cada vez que ejecutamos un crud en la base de datos nos estamos convirtiendo en un clientes(cliente web, cliente cli, cliente GUI, cliente app)
+
+Se utilizo mongo atlas para crear una base de datos en la nube, donde podemos acceder desde mongoCompass
+
+mongoose es una ODM, permite definir esquemas para gestionar colecciones y documentos en nodeDb
+
+installar mogoose
+se crea una carpeta models en src qie va a contener los modelos de la base de datos
+Es esquema contiene las propiedades que va a tener en la base de datos
+
+para conectar mongo atlas con la app que estamos trabajando, vamos a atlas, connect yout application
+copio el comando y lo conecto en el archivo app.js
