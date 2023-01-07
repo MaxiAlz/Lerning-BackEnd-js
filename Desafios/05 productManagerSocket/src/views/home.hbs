@@ -1,0 +1,33 @@
+<div>
+  <h2 class="mt-4 mb-4">Lista de Productos</h2>
+</div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Tittle</th>
+      <th scope="col">Description</th>
+      <th scope="col">Price</th>
+      <th scope="col">Thumbnail</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{! estos products se los tengo que pasar desde el renderder del app.js }}
+    {{#if products.length}}
+      {{#each products}}
+        <tr>
+          <th scope="row">{{this.id}}</th>
+          <td>{{this.tittle}}</td>
+          <td>{{this.description}}</td>
+          <td>$ {{this.price}}</td>
+          <td><img
+              src={{this.thumbnail}}
+              alt={{this.tittle}}
+              height="72px"
+              width="72px"
+            /></td>
+        </tr>
+      {{/each}}
+    {{/if}}
+  </tbody>
+</table>

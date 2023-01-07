@@ -1,0 +1,79 @@
+<div>
+  <h2 class="mt-4 mb-4">Lista de Productos en tiempo Real</h2>
+</div>
+<div class="container mb-5">
+  <form id="create-product-form">
+    <div class="row mt-2 mb-2">
+      <div class="col">
+        <h6>Titulo</h6>      
+        <input
+        id="titulo-form"
+          type="text"
+          class="form-control"
+          placeholder="Titulo"
+          aria-label="Titulo"
+        />
+      </div>
+      <div class="col">
+        <h6>Descripcion</h6>        
+        <input
+        id="Descripcion-form"
+          type="text"
+          class="form-control"
+          placeholder="Descripcion"
+          aria-label="Descripcion"
+        />
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col">
+        <h6>precio</h6>
+        <input
+        id="precio-form"
+          type="number"
+          class="form-control"
+          placeholder="precio: $ "
+          aria-label="precio: $ "
+        />
+      </div>
+      <div class="col">
+        <h6>Codigo</h6>      
+        <input
+        id="codigo-form"
+          type="text"
+          class="form-control"
+          placeholder="Codigo"
+          aria-label="Codigo"
+        />
+      </div>
+      <div class="col">
+        <h6> Stock del producto</h6>
+        <input
+        id="stock-form"
+          type="number"
+          class="form-control"
+          placeholder="Stock"
+          aria-label="Codigo"
+        />
+      </div>
+    </div>
+    <button type="button" value="Enviar" class="btn btn-secondary" onclick="getDatos()">Enviar</button>
+  </form>
+</div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Tittle</th>
+      <th scope="col">Description</th>
+      <th scope="col">Price</th>
+      <th scope="col">Thumbnail</th>
+    </tr>
+  </thead>
+  <tbody id="products-table-body">
+    {{! estos products se los tengo que pasar desde el renderder del app.js }}
+
+  </tbody>
+</table>
+
+<script src="js/main.js"></script>
