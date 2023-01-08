@@ -1,0 +1,10 @@
+<h1>Pokedex: Pokemones disponibles</h1>
+
+
+{{#each pokemons}}
+<div>
+    <b>{{this.name}}</b> <i>{{this.id}}</i>
+    <img src="{{this.photo}}" alt="{{this.name}}">
+    <i>{{this.type}}</i>
+</div>
+{{/each}}
