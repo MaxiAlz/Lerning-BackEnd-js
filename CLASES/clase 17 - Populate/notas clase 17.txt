@@ -1,0 +1,10 @@
+indexacion:
+
+De alguna forma sirve para optimizar las consultas a las bases de datos y que estas sean mas arpidas  y dinamicas
+
+
+Populate: consiste en llenar un campo con id que hacen referencia a otras consultas
+por ejemplo un carrito de compras que almacena un array de id's de productos
+un usuario que almacena un array de proyectos al cual pertenece
+
+es un metodo propio de mongoose, por lo tanto hay que instalarlo

@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "tittle": "computadora Dell",
+    "description": "Computadora dell 4212",
+    "price": 200,
+    "thumbnail": "Sin imagen",
+    "code": "asd123",
+    "stock": 4
+  },
+  {
+    "id": 2,
+    "tittle": "celular samsung",
+    "description": "galaxy 523",
+    "price": 500,
+    "thumbnail": "Sin imagen",
+    "code": "cel123",
+    "stock": 4
+  },
+  {
+    "id": 3,
+    "tittle": "lavaropa",
+    "description": "lavaropa",
+    "price": 150,
+    "thumbnail": "Sin imagen",
+    "code": "lav123",
+    "stock": 7
+  },
+  {
+    "id": 4,
+    "tittle": "Tablet",
+    "description": "table 7' ",
+    "price": 195,
+    "thumbnail": "Sin imagen",
+    "code": "tab563",
+    "stock": 9
+  },
+  {
+    "id": 5,
+    "tittle": "Monitor Samsung",
+    "description": "Full hd",
+    "price": 120,
+    "thumbnail": "Sin imagen",
+    "code": "cod123",
+    "stock": 7
+  },
+  {
+    "id": 6,
+    "tittle": "Iphone 13",
+    "description": "Iphone 13",
+    "price": 800,
+    "thumbnail": "Sin imagen",
+    "code": "cod234",
+    "stock": 10
+  },
+  {
+    "id": 7,
+    "tittle": "Celular LG",
+    "description": "Celular LG, core 5",
+    "price": 400,
+    "thumbnail": "Sin imagen",
+    "code": "cod345",
+    "stock": 14
+  },
+  {
+    "id": 8,
+    "tittle": "Smart Tv",
+    "description": "Pantalla 42' ",
+    "price": 850,
+    "thumbnail": "Sin imagen",
+    "code": "cod567",
+    "stock": 20
+  },
+  {
+    "id": 9,
+    "tittle": "Aire acondicionado",
+    "description": "Aire 1000 frigorias",
+    "price": 400,
+    "thumbnail": "Sin imagen",
+    "code": "cod365",
+    "stock": 18
+  },
+  {
+    "tittle": "monopatin Electrico",
+    "description": "Monopatin 5mil map",
+    "price": 800,
+    "code": "cod465",
+    "id": 10
+  },
+  {
+    "tittle": "macbook pro",
+    "description": "computadora apple",
+    "price": "2000",
+    "code": "ASD4562",
+    "id": 11
+  }
+]
