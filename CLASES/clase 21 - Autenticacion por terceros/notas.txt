@@ -1,0 +1,4 @@
+Sirve para pedir prestado datos a las aplicaciones mas comunes
+
+Sirve para que un usuario se loguee con google, github, facebook u otro mas
+

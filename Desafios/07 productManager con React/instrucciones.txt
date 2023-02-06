@@ -1,0 +1,10 @@
+Para ejecutar el programa se necesitaran 2 consolas:
+
+una en la ruta raiz donde ejecutaremos el comando
+
+npm run watch
+
+Ejecutar en cliente, para ello ejecutamos 
+
+cd client
+npm run dev

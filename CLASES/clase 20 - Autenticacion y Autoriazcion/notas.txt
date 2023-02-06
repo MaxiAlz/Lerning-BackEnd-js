@@ -1,0 +1,13 @@
+autentiecacion:
+el cliente debe identificarse para poder ver un recurso
+Para que se autentique debe haber un registro previo para poder burcarlo en la base de datos
+
+Metos para loguearse:
+
+usuario y contraseña
+sin contraseña: 
+redes sociales: donde te dan la opcion de iniciar sesion con alguna red social
+
+
+Autorizacion define el alcance de cada usuario, pregunta si puede acceder a algun recurse o no. Es decir la jerarquia
+
