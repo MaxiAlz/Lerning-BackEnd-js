@@ -1,0 +1,11 @@
+app name: coder-ecommerce-com32205
+Homepage URL: http://localhost:8080
+callback URL: http://127.0.0.1:5173/githubCallback
+
+Owned by: @MaxiAlz
+
+App ID: 307326
+
+Client ID: Iv1.d81cad75552a780e
+
+client secret: a0b3f393a66ec7dc946862e90daa436ca0231aaa
